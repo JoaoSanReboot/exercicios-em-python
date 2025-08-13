@@ -1,9 +1,19 @@
-n1 = input('Digite qualquer dígito: \n')
+n1 = input('Digite algo: \n')
 
-#print(type(n1), n1.isnumeric()) - Verifica se é alfanumérico
+print('O tipo primitivo deste valor é', type(n1))
 
-#print(type(n1), n1.isalpha()) - Verficar se o dígito faz parte do alfabeto.
+print('Só tem espaços?', n1.isspace())
 
-#print(type(n1), n1.isupper()) - Verifica se todos os dígitos são em letras maiúsculas.
+print('É um número?', n1.isnumeric())
 
-#print (type(n1), n1.islower()) - Verifica se todos os dígitos são em letras minúsculas.
+print('É alfabético?', n1.isalpha())
+
+print('É alfanúmerico?', n1.isalnum())
+
+print('Está em maiúsculo?', n1.isupper())
+
+print('Está em minúsculo?', n1.islower())
+
+print('Está capitalizada:', n1.istitle())
+
+#Praticando a sintaxe is
