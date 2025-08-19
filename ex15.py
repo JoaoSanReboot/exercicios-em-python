@@ -1,3 +1,5 @@
+#Testando importação de bibliotecas utilizando o metodo sqrt.
+
 from math import sqrt
 
 num = int(input('Digite um número: '))
