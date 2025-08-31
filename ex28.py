@@ -15,7 +15,7 @@ sleep(1)
 print('-=-' * 20)
 
 if jogador == robo:
-    print('Paranéns! Você acertou o número que pensei era {} mesmo.'.format(robo))
+    print('Paranéns! Você acertou o número que pensei era {} mesmo.'.format(robo)) 
 else:
     print('Boa tentativa, mas o número corrreto era {}. Você perdeu!'.format(robo))
 print('-=-' * 20)
